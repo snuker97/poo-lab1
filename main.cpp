@@ -6,16 +6,16 @@ using namespace std;
 
 int main() {
 
-    List list;
-
-    list.setNode(1);
-    list.setNode(2);
-    list.setNode(3);
-    list.setNode(4);
-    list.setNode(5);
-    list.setNode(6);
-
-    list.getList();
+//    List list;
+//
+//    list.setSimpleNode(1);
+//    list.setSimpleNode(2);
+//    list.setSimpleNode(3);
+//    list.setSimpleNode(4);
+//    list.setSimpleNode(5);
+//    list.setSimpleNode(6);
+//
+//    list.getList();
 
     DoubleList doubleList;
 
@@ -26,7 +26,8 @@ int main() {
     doubleList.setNode(5);
     doubleList.setNode(6);
 
-    doubleList.getDoubleListFromRight();
+    doubleList.parseToListFromRight().getList();
+
 
     return 0;
 }

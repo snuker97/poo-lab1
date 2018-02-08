@@ -3,18 +3,18 @@
 
 class List {
 private:
-    struct node {
+    struct simpleNode {
         int data;
-        node *pNext;
+        simpleNode *pNext;
     };
 
-    node *pHead;
-    node *pCurrent;
+    simpleNode *pHead;
+    simpleNode *pCurrent;
 
 public:
     List();
 
-    void setNode(int data);
+    void setSimpleNode(int data);
 
     void getList();
 };

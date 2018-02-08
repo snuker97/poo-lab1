@@ -8,8 +8,8 @@ List::List() {
     pCurrent = NULL;
 }
 
-void List::setNode(int data) {
-    node *pNode = new node;
+void List::setSimpleNode(int data) {
+    simpleNode *pNode = new simpleNode;
 
     pNode->data = data;
     pNode->pNext = NULL;

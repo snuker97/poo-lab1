@@ -69,8 +69,22 @@ void DoubleList::getDoubleListFromRight() {
     }
 }
 
-void DoubleList::parseToSimpleLinkedList() {
+List DoubleList::parseToListFromRight() {
+    List list;
+    if (pHead != NULL) {
 
+        pCurrent = pTail;
+
+        while (pCurrent != NULL) {
+            list.setSimpleNode(pCurrent->data);
+            pCurrent = pCurrent->pPrev;
+        }
+    }
+    else {
+        cout << "Nu exista nici un element in lista." << endl;
+    }
+
+    return list;
 }
 
 
