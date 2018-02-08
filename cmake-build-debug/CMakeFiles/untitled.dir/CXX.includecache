@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Linked List/untitled/DoubleList.cpp
+iostream
+-
+DoubleList.h
+D:/Linked List/untitled/DoubleList.h
+
+D:/Linked List/untitled/DoubleList.h
+string
+-
+List.h
+D:/Linked List/untitled/List.h
+
+D:/Linked List/untitled/List.cpp
+iostream
+-
+List.h
+D:/Linked List/untitled/List.h
+
+D:/Linked List/untitled/List.h
+
+D:/Linked List/untitled/main.cpp
+iostream
+-
+List.h
+D:/Linked List/untitled/List.h
+DoubleList.h
+D:/Linked List/untitled/DoubleList.h
+
